@@ -1,6 +1,7 @@
 import {NavLink} from 'react-router-dom';
 
 function Navbar() {
+    
     return ( 
         <div class="navbar navbar-expand-lg bg-light navbar-light">
             <div class="container-fluid">
