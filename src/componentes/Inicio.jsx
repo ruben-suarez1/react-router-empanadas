@@ -1,3 +1,6 @@
+import carrusel1 from '../img/carrusel3.jpg'
+import Nosotros from './Nosotros';
+import Contacto from './Contacto';
 
 function Inicio(){
   return (    
@@ -8,6 +11,7 @@ function Inicio(){
                 <div class="owl-carousel">
                     <div class="carousel-item">
                         <div class="carousel-img">
+                            <img src={carrusel1} alt={Image} />
                         </div>
                         <div class="carousel-text">
                             <h1>Los <span>Mejores</span> Ingredientes</h1>
@@ -19,6 +23,14 @@ function Inicio(){
                 </div>
             </div>
         </div>
+        
+        
+        <Nosotros />
+
+        <Contacto />
+
+       
+        
     </div>
    );
 }
