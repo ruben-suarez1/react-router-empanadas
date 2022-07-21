@@ -1,3 +1,5 @@
+import {NavLink} from 'react-router-dom';
+
 function Navbar() {
     return ( 
         <div class="navbar navbar-expand-lg bg-light navbar-light">
@@ -9,10 +11,10 @@ function Navbar() {
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
-                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                        <a href="about.html" class="nav-item nav-link">Productos</a>
-                        <a href="feature.html" class="nav-item nav-link">Nosotros</a>
-                        <a href="team.html" class="nav-item nav-link">Contacto</a>
+                    <NavLink to='/' className="nav-item nav-link active">Inicio</NavLink>
+                        <NavLink to='/Productos' className="nav-item nav-link">Productos</NavLink>
+                        <NavLink to='/Nosostros' className="nav-item nav-link">Nosotros</NavLink>
+                        <NavLink to='/Contacto' className="nav-item nav-link">Contacto</NavLink>
                     </div>
                 </div>
             </div>
