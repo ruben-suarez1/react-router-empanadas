@@ -8,7 +8,6 @@ function Inicio(){
                 <div class="owl-carousel">
                     <div class="carousel-item">
                         <div class="carousel-img">
-                            <img src="/src/componentes/page-header.jpg" alt="Image" />
                         </div>
                         <div class="carousel-text">
                             <h1>Los <span>Mejores</span> Ingredientes</h1>
