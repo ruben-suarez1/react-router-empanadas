@@ -32,6 +32,12 @@ a:focus {
   text-decoration: none;
 }
 
+.contactoimg{
+    height: 350px;
+    width: 500px;
+    border-radius: 15px;
+}
+
 .btn.custom-btn {
   padding: 12px 25px;
   font-family: 'Nunito', sans-serif;
