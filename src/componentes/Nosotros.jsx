@@ -57,7 +57,7 @@ function Nosotros() {
                             </button>        
                             
                             <div className="embed-responsive embed-responsive-16by9">
-                                <iframe className={embed-responsive-item} url='https://www.youtube.com/watch?v=EhCaEYDrp30' id={video}  allowscriptaccess={always} allow={autoplay} />
+                                
                             </div>
                         </div>
                     </div>
